@@ -37,7 +37,7 @@ namespace SystemsIntegration.Api.Controllers
         [HttpPut("ActualizaStock")]
         public async Task<string> ActualizarStockAsync()
         {
-            string sku = "PAEAE00002"; 
+            string sku = "PAEAE00005"; 
             string cantidad = "5";
             try
             {
